@@ -38,7 +38,7 @@ Dtaskgamer-bot/
 │   ├── config/  
 │   │   ├── BotConfig.java                 # Конфигурация бота  
 │   │   └── DatabaseConfig.java           # Конфигурация БД  
-│   ├── controller/
+│   ├── controller/  
 │   │   └── TelegramBotController.java    # Обработчик команд бота  
 │   ├── service/  
 │   │   ├── UserService.java              # Логика пользователей  
