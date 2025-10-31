@@ -32,35 +32,35 @@ TaskGamer Bot помогает мотивировать себя на выпол
 
 3. Структура проекта
 
-Dtaskgamer-bot/
-├── src/main/java/com/yourname/taskgamer/
-│   ├── TaskGamerApplication.java          # Главный класс приложения
-│   ├── config/
-│   │   ├── BotConfig.java                 # Конфигурация бота
-│   │   └── DatabaseConfig.java           # Конфигурация БД
+Dtaskgamer-bot/  
+├── src/main/java/com/yourname/taskgamer/  
+│   ├── TaskGamerApplication.java          # Главный класс приложения  
+│   ├── config/  
+│   │   ├── BotConfig.java                 # Конфигурация бота  
+│   │   └── DatabaseConfig.java           # Конфигурация БД  
 │   ├── controller/
-│   │   └── TelegramBotController.java    # Обработчик команд бота
-│   ├── service/
-│   │   ├── UserService.java              # Логика пользователей
-│   │   ├── TaskService.java              # Логика задач
-│   │   ├── GameService.java              # Игровая логика
-│   │   └── AchievementService.java       # Логика достижений
-│   ├── model/
-│   │   ├── User.java                     # Модель пользователя
-│   │   ├── Task.java                     # Модель задачи
-│   │   └── Achievement.java              # Модель достижения
-│   ├── repository/
-│   │   ├── UserRepository.java           # Репозиторий пользователей
-│   │   ├── TaskRepository.java           # Репозиторий задач
-│   │   └── AchievementRepository.java    # Репозиторий достижений
-│   └── dto/
-│       ├── TaskRequest.java              # DTO для запросов задач
-│       └── UserStatsResponse.java        # DTO для статистики
-├── src/main/resources/
-│   ├── application.properties            # Конфигурация
-│   └── data.sql                          # Начальные данные
-├── pom.xml                              # Maven зависимости
-└── README.md
+│   │   └── TelegramBotController.java    # Обработчик команд бота  
+│   ├── service/  
+│   │   ├── UserService.java              # Логика пользователей  
+│   │   ├── TaskService.java              # Логика задач  
+│   │   ├── GameService.java              # Игровая логика  
+│   │   └── AchievementService.java       # Логика достижений  
+│   ├── model/  
+│   │   ├── User.java                     # Модель пользователя  
+│   │   ├── Task.java                     # Модель задачи  
+│   │   └── Achievement.java              # Модель достижения  
+│   ├── repository/  
+│   │   ├── UserRepository.java           # Репозиторий пользователей  
+│   │   ├── TaskRepository.java           # Репозиторий задач  
+│   │   └── AchievementRepository.java    # Репозиторий достижений  
+│   └── dto/  
+│       ├── TaskRequest.java              # DTO для запросов задач  
+│       └── UserStatsResponse.java        # DTO для статистики  
+├── src/main/resources/  
+│   ├── application.properties            # Конфигурация  
+│   └── data.sql                          # Начальные данные  
+├── pom.xml                              # Maven зависимости  
+└── README.md  
 
 5. Использование
 Основные команды:
